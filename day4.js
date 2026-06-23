@@ -33,7 +33,7 @@
 // }
 // console.log(vowel);
 
-Q4: Count Consonants (Uppercase Included)
+// Q4: Count Consonants (Uppercase Included)
 
 // const word = "FrontEnd";
 
