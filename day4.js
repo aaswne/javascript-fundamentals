@@ -1,34 +1,50 @@
-// Count Characters (Ignore Spaces)
+// // Q1: Count Characters (Ignore Spaces)
 
-const text = "aswin krishna";
+// const text = "aswin krishna";
 
-console.log(text.replace(" ", "").length);
+// console.log(text.replace(" ","").length)
 
-// reverse a string
+// Q2: Reverse a String
 
-const word = "javascript";
+// const word = "javascript";
 
-let reversed = "";
+// let reversed = "";
 
-for (let i = word.length - 1; i >= 0; i--) {
-  reversed = reversed + word[i];
-}
-console.log(reversed);
+// for (let i = word.length - 1; i >=0; i--) {
+//   reversed = reversed + word[i];
+// }console.log(reversed)
 
-// Count Vowels (Uppercase Included)
+// Q3: Count Vowels (Uppercase Included)
 
-const word = "AsWin";
-let vowels = 0
-for(let i = 0;i<word.length;i++){
+// const word = "AsWin";
 
-    if(
-        word[i].toLocaleLowerCase()!=="a"&&
-        word[i].toLocaleLowerCase()!=="e"&&
-         word[i].toLocaleLowerCase()!=="i"&&
-          word[i].toLocaleLowerCase()!=="o"&&
-           word[i].toLocaleLowerCase()!=="u"
-    ){
-        vowels++
-    }
-} console.log(vowels)
+// let vowel = 0;
 
+// for (let i = 0; i < word.length; i++) {
+//   if (
+//     word[i].toLocaleLowerCase() === "a" ||
+//     word[i].toLocaleLowerCase() === "e" ||
+//     word[i].toLocaleLowerCase() === "i" ||
+//     word[i].toLocaleLowerCase() === "o" ||
+//     word[i].toLocaleLowerCase() === "u"
+//   ) {
+//     vowel++;
+//   }
+// }
+// console.log(vowel);
+
+Q4: Count Consonants (Uppercase Included)
+
+// const word = "FrontEnd";
+
+// Q5: Check Palindrome (Ignore Case)
+
+// const word = "Madam";
+
+// Q6: Check Sentence Palindrome (Ignore Spaces)
+
+// const text = "nurses run";
+
+// Q7: Find Most Frequent Character
+
+// const word = "javascript";
