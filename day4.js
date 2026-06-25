@@ -68,20 +68,19 @@
 
 // // Q6: Check Sentence Palindrome (Ignore Spaces)
 
-const text = "nurses run";
+// const text = "nurses run";
 
-let palindrome = ""
+// let palindrome = ""
 
-for(let i = text.length-1;i>=0;i--){
-    palindrome = palindrome +text[i]
-}
+// for(let i = text.length-1;i>=0;i--){
+//     palindrome = palindrome +text[i]
+// }
 
-if(text.replace(" ","")==palindrome.replace(" ","")){
-    console.log("palindrome")
-}else{
-    console.log("not")
-}
+// if(text.replace(" ","")==palindrome.replace(" ","")){
+//     console.log("palindrome")
+// }else{
+//     console.log("not")
+// }
 
-// // Q7: Find Most Frequent Character
 
-// const word = "javascript";
+
