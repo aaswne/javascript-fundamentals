@@ -52,23 +52,35 @@
 
 // Q5: Check Palindrome (Ignore Case)
 
-const word = "Madam";
+// const word = "Madam";
 
-let palindrome = "";
+// let palindrome = "";
 
-for (let i = word.length - 1; i >= 0; i--) {
-  palindrome = palindrome + word[i];
-}
+// for (let i = word.length - 1; i >= 0; i--) {
+//   palindrome = palindrome + word[i];
+// }
 
-if (word.toLowerCase() == palindrome.toLowerCase()) {
-  console.log("palindrome");
-} else {
-  console.log("not");
-}
+// if (word.toLowerCase() == palindrome.toLowerCase()) {
+//   console.log("palindrome");
+// } else {
+//   console.log("not");
+// }
 
 // // Q6: Check Sentence Palindrome (Ignore Spaces)
 
-// const text = "nurses run";
+const text = "nurses run";
+
+let palindrome = ""
+
+for(let i = text.length-1;i>=0;i--){
+    palindrome = palindrome +text[i]
+}
+
+if(text.replace(" ","")==palindrome.replace(" ","")){
+    console.log("palindrome")
+}else{
+    console.log("not")
+}
 
 // // Q7: Find Most Frequent Character
 
