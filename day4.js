@@ -37,7 +37,7 @@
 
 // const word = "FrontEnd";
 
-// let constants = 0 
+// let constants = 0
 
 // for(let i = 0;i<word.length;i++){
 //     if(word[i].toLowerCase()!=="a"&&
@@ -52,15 +52,19 @@
 
 // Q5: Check Palindrome (Ignore Case)
 
-
 const word = "Madam";
 
-let palindrome = ""
+let palindrome = "";
 
-for(let i =word.length-1;i<0;i--){
-    palindrome=palindrome+word[i]
-    
-}console.log(palindrome)
+for (let i = word.length - 1; i >= 0; i--) {
+  palindrome = palindrome + word[i];
+}
+
+if (word.toLowerCase() == palindrome.toLowerCase()) {
+  console.log("palindrome");
+} else {
+  console.log("not");
+}
 
 // // Q6: Check Sentence Palindrome (Ignore Spaces)
 
