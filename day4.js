@@ -1,86 +1,86 @@
-// // Q1: Count Characters (Ignore Spaces)
+// Q1: Count Characters (Ignore Spaces)
 
-// const text = "aswin krishna";
+const text = "aswin krishna";
 
-// console.log(text.replace(" ","").length)
+console.log(text.replace(" ","").length)
 
-// // Q2: Reverse a String
+// Q2: Reverse a String
 
-// const word = "javascript";
+const word = "javascript";
 
-// let reversed = "";
+let reversed = "";
 
-// for (let i = word.length - 1; i >=0; i--) {
-//   reversed = reversed + word[i];
-// }console.log(reversed)
+for (let i = word.length - 1; i >=0; i--) {
+  reversed = reversed + word[i];
+}console.log(reversed)
 
-// // Q3: Count Vowels (Uppercase Included)
+// Q3: Count Vowels (Uppercase Included)
 
-// const word = "AsWin";
+const word = "AsWin";
 
-// let vowel = 0;
+let vowel = 0;
 
-// for (let i = 0; i < word.length; i++) {
-//   if (
-//     word[i].toLocaleLowerCase() === "a" ||
-//     word[i].toLocaleLowerCase() === "e" ||
-//     word[i].toLocaleLowerCase() === "i" ||
-//     word[i].toLocaleLowerCase() === "o" ||
-//     word[i].toLocaleLowerCase() === "u"
-//   ) {
-//     vowel++;
-//   }
-// }
-// console.log(vowel);
+for (let i = 0; i < word.length; i++) {
+  if (
+    word[i].toLocaleLowerCase() === "a" ||
+    word[i].toLocaleLowerCase() === "e" ||
+    word[i].toLocaleLowerCase() === "i" ||
+    word[i].toLocaleLowerCase() === "o" ||
+    word[i].toLocaleLowerCase() === "u"
+  ) {
+    vowel++;
+  }
+}
+console.log(vowel);
 
 // Q4: Count Consonants (Uppercase Included)
 
-// const word = "FrontEnd";
+const word = "FrontEnd";
 
-// let constants = 0
+let constants = 0
 
-// for(let i = 0;i<word.length;i++){
-//     if(word[i].toLowerCase()!=="a"&&
-//     word[i].toLowerCase()!=="e"&&
-//     word[i].toLowerCase()!=="i"&&
-//     word[i].toLowerCase()!=="o"&&
-//     word[i].toLowerCase()!=="u"
-// ){
-//     constants++
-// }
-// }console.log(constants)
+for(let i = 0;i<word.length;i++){
+    if(word[i].toLowerCase()!=="a"&&
+    word[i].toLowerCase()!=="e"&&
+    word[i].toLowerCase()!=="i"&&
+    word[i].toLowerCase()!=="o"&&
+    word[i].toLowerCase()!=="u"
+){
+    constants++
+}
+}console.log(constants)
 
 // Q5: Check Palindrome (Ignore Case)
 
-// const word = "Madam";
+const word = "Madam";
 
-// let palindrome = "";
+let palindrome = "";
 
-// for (let i = word.length - 1; i >= 0; i--) {
-//   palindrome = palindrome + word[i];
-// }
+for (let i = word.length - 1; i >= 0; i--) {
+  palindrome = palindrome + word[i];
+}
 
-// if (word.toLowerCase() == palindrome.toLowerCase()) {
-//   console.log("palindrome");
-// } else {
-//   console.log("not");
-// }
+if (word.toLowerCase() == palindrome.toLowerCase()) {
+  console.log("palindrome");
+} else {
+  console.log("not");
+}
 
-// // Q6: Check Sentence Palindrome (Ignore Spaces)
+// Q6: Check Sentence Palindrome (Ignore Spaces)
 
-// const text = "nurses run";
+const text = "nurses run";
 
-// let palindrome = ""
+let palindrome = ""
 
-// for(let i = text.length-1;i>=0;i--){
-//     palindrome = palindrome +text[i]
-// }
+for(let i = text.length-1;i>=0;i--){
+    palindrome = palindrome +text[i]
+}
 
-// if(text.replace(" ","")==palindrome.replace(" ","")){
-//     console.log("palindrome")
-// }else{
-//     console.log("not")
-// }
+if(text.replace(" ","")==palindrome.replace(" ","")){
+    console.log("palindrome")
+}else{
+    console.log("not")
+}
 
 
 
