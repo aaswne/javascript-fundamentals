@@ -114,9 +114,27 @@
 // *****
 
 
-for(let i =1;i<=5;i++){
+// for(let i =1;i<=5;i++){
+//     let raw = ""
+//     for(let j = 1;j<=i;j++){
+//         raw=raw+"*"
+//     }console.log(raw)
+// }
+
+
+// - [ ] Print:
+
+// *****
+// ****
+// ***
+// **
+// *
+
+for(let i = 1;i<=5;i++){
     let raw = ""
-    for(let j = 1;j<=i;j++){
+    for(let j = 1;j<=i;j++ ){
         raw=raw+"*"
+
     }console.log(raw)
 }
+
