@@ -27,6 +27,8 @@ checkNum(0)
 // Q3: Create a function to find the smallest number in an array
 
 
+const
+
 // Q4: Create a function to reverse a string
 
 
