@@ -2,17 +2,37 @@
 // Example:
 // "hello world" -> "HELLO WORLD"
 
+let word = "hello world"
+
+let uppercase = word.toUpperCase()
+
+console.log(uppercase)
+
 // Q2: Convert a string to lowercase.
 // Example:
 // "HELLO" -> "hello"
+
+let wordd = "HELLO"
+
+const lowercase = wordd.toLowerCase()
+
+console.log(lowercase)
 
 // Q3: Find the length of a string.
 // Example:
 // "JavaScript" -> 10
 
+let count = "javascript"
+
+console.log(count.length)
+
 // Q4: Get the first and last character of a string.
 // Example:
 // "React" -> R, t
+
+let prob = "React"
+
+
 
 // Q5: Check if a string includes a word.
 // Example:
