@@ -32,6 +32,10 @@ console.log(count.length)
 
 let prob = "React"
 
+console.log(prob[0])
+console.log(prob[prob.length-1])
+
+
 
 
 // Q5: Check if a string includes a word.
@@ -39,10 +43,20 @@ let prob = "React"
 // "I love JavaScript"
 // Check: "JavaScript" -> true
 
+
+
+let sentence = "I love JavaScript "
+
+console.log(sentence.includes("JavaScript"))
+
 // Q6: Replace one word with another.
 // Example:
 // "I love Java"
 // Replace "Java" with "JavaScript"
+
+let point  = "I love Java"
+
+console.log(point.replace("Java","javascript"))
 
 // Q7: Remove extra spaces from the beginning and end.
 // Example:
