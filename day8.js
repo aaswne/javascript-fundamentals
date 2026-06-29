@@ -62,6 +62,11 @@ console.log(point.replace("Java","javascript"))
 // Example:
 // "   Hello World   " -> "Hello World"
 
+const space = "   Hello World   "
+
+console.log(space.replaceAll(" ",""))
+console.log(space)
+
 // Q8: Split a sentence into an array of words.
 // Example:
 // "I love coding"
