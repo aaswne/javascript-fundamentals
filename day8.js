@@ -72,6 +72,8 @@ console.log(space)
 // "I love coding"
 // Output: ["I", "love", "coding"]
 
+
+
 // Q9: Reverse a string using string methods.
 // Example:
 // "hello" -> "olleh"
@@ -80,3 +82,16 @@ console.log(space)
 // Example:
 // "madam" -> Palindrome
 // "hello" -> Not Palindrome
+
+
+let str =  "aswin"
+
+const reversed  = str.split("")
+
+console.log(reversed.reverse("").join(""))
+
+
+
+
+
+
