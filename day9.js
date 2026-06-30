@@ -49,7 +49,9 @@ console.log(worddd.lastIndexOf("a"))
 // "JavaScript"
 // Output: "Script"
 
+let lang = "javascript"
 
+console.log(lang.slice(4))
 
 
 // Q6: Get the first 4 characters using substring().
