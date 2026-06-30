@@ -59,12 +59,18 @@ console.log(lang.slice(4))
 // "Frontend"
 // Output: "Fron"
 
+let langu = "frontend"
+
+console.log(langu.slice(0,5))
+
 
 // Q7: Get the character at a specific index.
 // Example:
 // "React"
 // Get character at index 2
 // Output: "a"
+
+
 
 
 // Q8: Repeat a string multiple times.
