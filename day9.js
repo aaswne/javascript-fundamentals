@@ -70,6 +70,10 @@ console.log(langu.slice(0,5))
 // Get character at index 2
 // Output: "a"
 
+let char = "react"
+
+console.log(char[2])
+
 
 
 
@@ -79,6 +83,10 @@ console.log(langu.slice(0,5))
 // Repeat 3 times
 // Output: "HiHiHi"
 
+let hi = "hi"
+
+console.log(hi.repeat(3))
+
 
 // Q9: Count how many times a character appears.
 // Example:
@@ -86,8 +94,25 @@ console.log(langu.slice(0,5))
 // Count how many times "a" appears.
 // Output: 3
 
+let counta = 0 
+
+let wordddd  = "banana"
+
+for(let i = 0;i<=wordddd.length;i++){
+
+    if(worddd[i]=="a"){3
+        counta=counta+1
+    }
+}console.log(counta)
+
+
+
 
 // Q10: Capitalize the first letter of a string.
 // Example:
 // "javascript"
 // Output: "Javascript"
+
+let wor = "javascript"
+
+console.log(wor.slice(0,2).toUpperCase()+wor.slice(2))
