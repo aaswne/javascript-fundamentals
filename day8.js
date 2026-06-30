@@ -64,19 +64,31 @@ console.log(point.replace("Java","javascript"))
 
 const space = "   Hello World   "
 
-console.log(space.replaceAll(" ",""))
-console.log(space)
+console.log(space.trim())
+
 
 // Q8: Split a sentence into an array of words.
 // Example:
 // "I love coding"
 // Output: ["I", "love", "coding"]
 
+let sentenc  = "I love coding"
+
+console.log(sentenc.split(" "))
+
+
+
 
 
 // Q9: Reverse a string using string methods.
 // Example:
 // "hello" -> "olleh"
+
+let name = "aswin"
+
+console.log(name.split("").reverse("").join(""))
+
+
 
 // Q10: Check if a string is a palindrome using string methods.
 // Example:
