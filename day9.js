@@ -108,7 +108,7 @@ for(let i = 0;i<=wordddd.length;i++){
 
 
 
-// Q10: Capitalize the first letter of a string.
+// Q10: Capitalize the first two letter of a string.
 // Example:
 // "javascript"
 // Output: "Javascript"
