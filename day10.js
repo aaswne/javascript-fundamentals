@@ -86,7 +86,7 @@ let contains1 = false
 let contains2 = false
 let startWith = false 
 
-for(let i = 0;i<input2.length;i++){
+for(let i = 0 ; i <input2.length;i++){
   if(input2[i]=="@"){
     contains1=true
   }
@@ -98,7 +98,11 @@ for(let i = 0;i<input2.length;i++){
   }
 }
 
-
+if(contains1 && contains2 && startWith == true){
+  console.log("valied email")
+}else{
+  console.log("not valied")
+}
 
 
 
