@@ -32,7 +32,28 @@ console.log(nme.replaceAll(" ", "").toLowerCase() + "07");
 // - At least one lowercase letter.
 // - At least one number.
 
+let input = "Aswin123";
 
+let upper = false;
+let lower = false;
+let num = false;
+let char = false;
+
+if (input.length >= 8) {
+  char = true;
+}
+
+for (let i = 0; i < input.length; i++) {
+  if (input[i] == input[i].toUpperCase()) {
+    upper = true;
+  }
+  if (input[i] == input[i].toLowerCase()) {
+    lower = true;
+  }
+  if(input[i]==Number){
+    nme=true
+  }
+}
 
 // Q3: Email Validator
 // Input:
