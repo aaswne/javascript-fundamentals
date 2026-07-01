@@ -117,6 +117,15 @@ if(contains1 && contains2 && startWith == true){
 //
 // Show only the last 4 digits.
 
+let number = "8089459939"
+
+let hidden = "*".repeat(number.length - 4)+number.slice(-4)
+
+console.log(hidden)
+
+
+
+
 // Q5: Shopping Cart Total
 //
 // let cart = [
