@@ -15,9 +15,9 @@
 // - Remove all spaces.
 // - Add "07" at the end.
 
-let nme = "Aswin Krishna";
+let name = "Aswin Krishna";
 
-console.log(nme.replaceAll(" ", "").toLowerCase() + "07");
+console.log(name.replaceAll(" ", "").toLowerCase() + "07");
 
 // Q2: Password Strength Checker
 // Input:
@@ -32,7 +32,7 @@ console.log(nme.replaceAll(" ", "").toLowerCase() + "07");
 // - At least one lowercase letter.
 // - At least one number.
 
-let input = "Aswin123";
+let input = "Aswin1234";
 
 let upper = false;
 let lower = false;
@@ -44,15 +44,27 @@ if (input.length >= 8) {
 }
 
 for (let i = 0; i < input.length; i++) {
-  if (input[i] == input[i].toUpperCase()) {
+  if (
+    input[i] == input[i].toUpperCase() &&
+    input[i] !== input[i].toLowerCase()
+  ) {
     upper = true;
   }
-  if (input[i] == input[i].toLowerCase()) {
+  if (
+    input[i] == input[i].toLowerCase() &&
+    input[i] !== input[i].toUpperCase()
+  ) {
     lower = true;
   }
-  if(input[i]==Number){
-    nme=true
+  if (input[i] > "0" && input[i] < "9") {
+    num = true;
   }
+}
+
+if (num && upper && lower && char) {
+  console.log("Strong Password");
+} else {
+  console.log("Weak Password");
 }
 
 // Q3: Email Validator
@@ -66,6 +78,31 @@ for (let i = 0; i < input.length; i++) {
 // - Contains '@'
 // - Contains '.'
 // - Doesn't start with '@'
+
+
+let input2 = "abc@gmail.com"
+
+let contains1 = false
+let contains2 = false
+let startWith = false 
+
+for(let i = 0;i<input2.length;i++){
+  if(input2[i]=="@"){
+    contains1=true
+  }
+  if(input2[i]=="."){
+    contains2=true
+  }
+  if(input2[0]!=="@"){
+    startWith=true
+  }
+}
+
+
+
+
+
+
 
 // Q4: Hide Phone Number
 // Input:
