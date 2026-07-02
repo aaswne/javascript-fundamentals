@@ -41,43 +41,66 @@ console.log(sum)
 // Q3: Print Even Numbers
 // ===============================
 //
-// let numbers = [3, 8, 10, 15, 18, 21]
+let numbers3 = [3, 8, 10, 15, 18, 21]
 //
 // Output:
 // 8
 // 10
 // 18
 
+for(let item of numbers3){
+    if(item%2==0){
+        console.log(item)
+    }
+}
+
 
 // ===============================
 // Q4: Print Odd Numbers
 // ===============================
 //
-// let numbers = [2, 5, 8, 11, 14, 17]
+let numbers4 = [2, 5, 8, 11, 14, 17]
 //
 // Output:
 // 5
 // 11
 // 17
 
+for(let num of numbers4){
+    if(num%2!==0){
+        console.log(num)
+    }
+}
+
+
+
 
 // ===============================
 // Q5: Count Total Items
 // ===============================
 //
-// let fruits = ["Apple", "Orange", "Mango", "Banana"]
+let fruits = ["Apple", "Orange", "Mango", "Banana"]
 //
 // Output:
 // Total Fruits = 4
 //
 // Don't use .length
 
+let count = 0 
+
+for( let fruit of fruits){
+
+    count++
+
+}console.log(count)
+
+
 
 // ===============================
 // Q6: Print All Names
 // ===============================
 //
-// let names = ["Aswin", "John", "Sara", "Alex"]
+let names6 = ["Aswin", "John", "Sara", "Alex"]
 //
 // Output:
 // Aswin
@@ -85,21 +108,30 @@ console.log(sum)
 // Sara
 // Alex
 
+for(let nme of names6){
+    console.log(nme)
+
+}
+
+
+
 
 // ===============================
 // Q7: Print Product Names
 // ===============================
 //
-// let products = [
-//   { name: "Laptop", price: 50000 },
-//   { name: "Mouse", price: 800 },
-//   { name: "Keyboard", price: 1200 }
-// ]
+let products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 800 },
+  { name: "Keyboard", price: 1200 }
+]
 //
 // Output:
 // Laptop
 // Mouse
 // Keyboard
+
+
 
 
 // ===============================

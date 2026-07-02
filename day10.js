@@ -177,22 +177,37 @@ for (let i = 0; i < marks.length; i++) {
 
   total = total + marks[i];
 }
-console.log("passed",passed,"failed",failed,"highest",highest,"lowest",lowest,"average",average,"tottal",tottal)
+console.log(
+  "passed",
+  passed,
+  "failed",
+  failed,
+  "highest",
+  highest,
+  "lowest",
+  lowest,
+  "average",
+  average,
+  "tottal",
+  tottal,
+);
 // Q7: Find Duplicate Names
 //
-// let names = [
-//   "Aswin",
-//   "John",
-//   "John",
-//   "Alex",
-//   "Aswin"
-// ]
+let names = [
+  "Aswin",
+  "John",
+  "John",
+  "Alex",
+  "Aswin"
+]
 //
 // Output:
 // John
 // Aswin
 //
 // Print each duplicate only once.
+
+ skiped
 
 // Q8: ATM Simulator
 //
