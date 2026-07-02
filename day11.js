@@ -120,7 +120,7 @@ for(let nme of names6){
 // Q7: Print Product Names
 // ===============================
 //
-let products = [
+let products2 = [
   { name: "Laptop", price: 50000 },
   { name: "Mouse", price: 800 },
   { name: "Keyboard", price: 1200 }
@@ -131,6 +131,12 @@ let products = [
 // Mouse
 // Keyboard
 
+for(let item of products2){
+    console.log(item.name)
+}
+
+
+
 
 
 
@@ -138,16 +144,24 @@ let products = [
 // Q8: Print Product Prices
 // ===============================
 //
-// let products = [
-//   { name: "Laptop", price: 50000 },
-//   { name: "Mouse", price: 800 },
-//   { name: "Keyboard", price: 1200 }
-// ]
+let products3 = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 800 },
+  { name: "Keyboard", price: 1200 }
+]
 //
 // Output:
 // 50000
 // 800
 // 1200
+
+for(let item of products3){
+    console.log(item.price)
+}
+
+
+
+
 
 
 // ===============================
@@ -163,6 +177,8 @@ let products = [
 // Output:
 // Laptop
 // Keyboard
+
+
 
 
 // ===============================
