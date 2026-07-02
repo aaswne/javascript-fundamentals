@@ -79,34 +79,29 @@ if (num && upper && lower && char) {
 // - Contains '.'
 // - Doesn't start with '@'
 
+let input2 = "abc@gmail.com";
 
-let input2 = "abc@gmail.com"
+let contains1 = false;
+let contains2 = false;
+let startWith = false;
 
-let contains1 = false
-let contains2 = false
-let startWith = false 
-
-for(let i = 0 ; i <input2.length;i++){
-  if(input2[i]=="@"){
-    contains1=true
+for (let i = 0; i < input2.length; i++) {
+  if (input2[i] == "@") {
+    contains1 = true;
   }
-  if(input2[i]=="."){
-    contains2=true
+  if (input2[i] == ".") {
+    contains2 = true;
   }
-  if(input2[0]!=="@"){
-    startWith=true
+  if (input2[0] !== "@") {
+    startWith = true;
   }
 }
 
-if(contains1 && contains2 && startWith == true){
-  console.log("valied email")
-}else{
-  console.log("not valied")
+if (contains1 && contains2 && startWith == true) {
+  console.log("valied email");
+} else {
+  console.log("not valied");
 }
-
-
-
-
 
 // Q4: Hide Phone Number
 // Input:
@@ -117,14 +112,11 @@ if(contains1 && contains2 && startWith == true){
 //
 // Show only the last 4 digits.
 
-let number = "8089459939"
+let number = "8089459939";
 
-let hidden = "*".repeat(number.length - 4)+number.slice(-4)
+let hidden = "*".repeat(number.length - 4) + number.slice(-4);
 
-console.log(hidden)
-
-
-
+console.log(hidden);
 
 // Q5: Shopping Cart Total
 //
@@ -139,9 +131,20 @@ console.log(hidden)
 //
 // Don't use reduce().
 
+let total = 0;
+let cart = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 800 },
+  { name: "Keyboard", price: 1200 },
+];
+for (let item of cart) {
+  total = total + item.price;
+}
+console.log(total);
+
 // Q6: Student Result
 //
-// let marks = [45, 78, 90, 35, 67]
+let marks = [45, 78, 90, 35, 67];
 //
 // Print:
 // Passed = ?
@@ -149,7 +152,32 @@ console.log(hidden)
 // Highest = ?
 // Lowest = ?
 // Average = ?
+let passed = 0;
+let failed = 0;
+let highest = marks[0];
+let lowest = marks[0];
 
+let tottal = 0;
+let average = tottal / marks.length;
+
+for (let i = 0; i < marks.length; i++) {
+  if (marks[i] >= 50) {
+    passed = passed + 1;
+  }
+
+  if (marks[i] < 50) {
+    failed = failed + 1;
+  }
+  if (marks[i] > highest) {
+    highest = marks[i];
+  }
+  if (marks[i] < lowest) {
+    lowest = marks[i];
+  }
+
+  total = total + marks[i];
+}
+console.log("passed",passed,"failed",failed,"highest",highest,"lowest",lowest,"average",average,"tottal",tottal)
 // Q7: Find Duplicate Names
 //
 // let names = [
