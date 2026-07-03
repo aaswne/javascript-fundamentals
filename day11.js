@@ -168,15 +168,21 @@ for(let item of products3){
 // Q9: Print Products Above 1000
 // ===============================
 //
-// let products = [
-//   { name: "Laptop", price: 50000 },
-//   { name: "Mouse", price: 800 },
-//   { name: "Keyboard", price: 1200 }
-// ]
+let products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 800 },
+  { name: "Keyboard", price: 1200 }
+]
 //
 // Output:
 // Laptop
 // Keyboard
+
+for(let name of products){
+   console.log(name.name)
+}
+
+
 
 
 
@@ -185,13 +191,21 @@ for(let item of products3){
 // Q10: Find Total Cart Price
 // ===============================
 //
-// let cart = [
-//   { name: "Laptop", price: 50000 },
-//   { name: "Mouse", price: 800 },
-//   { name: "Keyboard", price: 1200 }
-// ]
+let cart = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 800 },
+  { name: "Keyboard", price: 1200 }
+]
 //
 // Output:
 // Total = 52000
 //
 // Don't use reduce()
+
+let total = 0 
+for(let price of cart){
+
+    total = total+price.price
+
+}console.log(total)
+
