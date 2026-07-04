@@ -207,12 +207,16 @@ let names = [
 //
 // Print each duplicate only once.
 
- skiped
+for(let name of names){
+  console.log(name)
+}
+
+
 
 // Q8: ATM Simulator
 //
 // Starting Balance:
-// let balance = 5000
+let balance = 5000
 //
 // Create functions:
 //
@@ -230,6 +234,16 @@ let names = [
 //
 // If balance is insufficient, print:
 // "Insufficient Balance"
+
+function Deposit ({value}){
+  return 
+  balance+value
+  console.log(balance)
+}
+
+Deposit(1000)
+
+
 
 // Q9: Login System
 //
