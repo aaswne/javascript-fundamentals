@@ -193,13 +193,7 @@ console.log(
 );
 // Q7: Find Duplicate Names
 //
-let names = [
-  "Aswin",
-  "John",
-  "John",
-  "Alex",
-  "Aswin"
-]
+let names = ["Aswin", "John", "John", "Alex", "Aswin"];
 //
 // Output:
 // John
@@ -207,16 +201,14 @@ let names = [
 //
 // Print each duplicate only once.
 
-for(let name of names){
-  console.log(name)
+for (let name of names) {
+  console.log(name);
 }
-
-
 
 // Q8: ATM Simulator
 //
 // Starting Balance:
-let balance = 5000
+let balance = 5000;
 //
 // Create functions:
 //
@@ -235,20 +227,28 @@ let balance = 5000
 // If balance is insufficient, print:
 // "Insufficient Balance"
 
-function Deposit ({value}){
-  return 
-  balance+value
-  console.log(balance)
+function Deposit(amount) {
+  balance = balance + amount;
+  console.log(balance);
 }
 
-Deposit(1000)
+Deposit(1000);
 
+function withdraw(amount) {
+  balance = balance - amount;
+  if (balance < amount) {
+    console.log("insufficiant fund");
+  } else {
+    console.log(balance);
+  }
+}
 
+withdraw(6000);
 
 // Q9: Login System
 //
-// let username = "admin"
-// let password = "1234"
+let username = "admin";
+let password = "1234";
 //
 // Create a login() function.
 //
@@ -258,6 +258,20 @@ Deposit(1000)
 // Otherwise:
 // "Invalid Username or Password"
 
+const login = ({ user, pass }) => {
+
+
+  if (user == username && pass == password) {
+    console.log("login succesfull");
+  } else {
+    console.log("invalied password of username");
+  }
+};
+
+
+login({
+  user:"admin",pass:"1234"
+})
 // Q10: Employee Salary Calculator
 //
 // let employee = {
