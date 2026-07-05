@@ -274,12 +274,12 @@ login({
 })
 // Q10: Employee Salary Calculator
 //
-// let employee = {
-//   name: "Aswin",
-//   salary: 35000,
-//   bonus: 5000,
-//   tax: 2500
-// }
+let employee = {
+  name: "Aswin",
+  salary: 35000,
+  bonus: 5000,
+  tax: 2500
+}
 //
 // Print:
 //
@@ -290,3 +290,11 @@ login({
 // Net Salary : 37500
 //
 // Net Salary = salary + bonus - tax
+
+for(let item in employee){
+   console.log(item, employee[item]);
+} console.log("net Salary:",employee.salary+employee.bonus-employee.tax)
+
+
+
+
