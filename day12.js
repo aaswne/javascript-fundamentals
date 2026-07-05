@@ -93,6 +93,15 @@ let arr4 = [10, 20, 10, 30, 20, 40];
 // Don't use Set()
 
 
+const newArr = arr4.filter((item,index)=>
+arr4.indexOf(item)===index)
+
+console.log(newArr)
+
+
+
+
+
 
 // --------------------------
 
