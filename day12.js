@@ -32,12 +32,29 @@ console.log("largest",largest);
 
 // Q2: Count Positive, Negative, Zero
 //
-// let arr = [10, -5, 0, 8, -2, 0, 15];
+let arr2 = [10, -5, 0, 8, -2, 0, 15];
 //
 // Output:
 // Positive = 3
 // Negative = 2
 // Zero = 2
+
+let negative = 0 
+
+let positive = 0 
+
+for (let each of arr2){
+    if(each>0){
+        positive = positive+1
+    }
+
+    if(each<0){
+        negative=negative+1
+    }
+}console.log("positive:",positive)
+console.log("negative",negative)
+
+
 
 // --------------------------
 
