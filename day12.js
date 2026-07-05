@@ -60,7 +60,7 @@ console.log("negative",negative)
 
 // Q3: Find Duplicate Numbers
 //
-// let arr = [1, 2, 3, 2, 4, 5, 1];
+let arr3 = [1, 2, 3, 2, 4, 5, 1];
 //
 // Output:
 // 1
@@ -68,11 +68,21 @@ console.log("negative",negative)
 //
 // Print each duplicate only once.
 
+
+for(let i = 0 ; i<arr3.length;i++){
+    for(let j = i+1;j<arr3.length;j++){
+        if(arr3[i]===arr3[j]){
+            console.log(arr3[i])
+        }
+    }
+}
+
+
 // --------------------------
 
 // Q4: Remove Duplicates
 //
-// let arr = [10, 20, 10, 30, 20, 40];
+let arr4 = [10, 20, 10, 30, 20, 40];
 //
 // Output:
 // 10
@@ -81,6 +91,8 @@ console.log("negative",negative)
 // 40
 //
 // Don't use Set()
+
+
 
 // --------------------------
 
