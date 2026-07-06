@@ -2,6 +2,15 @@
 let arr1 = [12, 45, 78, 23, 90, 56, 78];
 // Output: 56
 
+let largest = arr1[0];
+
+let secondLargest = arr1[0];
+
+let thirdLargest = 0;
+
+
+console.log("largest =", largest);
+console.log("second largest = ",secondLargest)
 
 // Q2: Count how many times each number appears
 let arr2 = [10, 20, 10, 30, 20, 10, 40];
@@ -11,42 +20,34 @@ let arr2 = [10, 20, 10, 30, 20, 10, 40];
 // 30 -> 1
 // 40 -> 1
 
-
 // Q3: Move all zeros to the end
 let arr3 = [0, 1, 0, 3, 12];
 // Output: [1, 3, 12, 0, 0]
-
 
 // Q4: Find the first non-repeating number
 let arr4 = [2, 3, 4, 2, 3, 5, 4];
 // Output: 5
 
-
 // Q5: Check if array is sorted
 let arr5 = [10, 20, 30, 40];
 // Output: Sorted
 
-
 // Q6: Reverse array without reverse()
 let arr6 = [10, 20, 30, 40];
 // Output: [40, 30, 20, 10]
-
 
 // Q7: Find common elements
 let arr7a = [10, 20, 30, 40];
 let arr7b = [20, 40, 50, 60];
 // Output: [20, 40]
 
-
 // Q8: Remove duplicates without Set()
 let arr8 = [10, 20, 10, 30, 20, 40];
 // Output: [10, 20, 30, 40]
 
-
 // Q9: Rotate array left by one
 let arr9 = [10, 20, 30, 40, 50];
 // Output: [20, 30, 40, 50, 10]
-
 
 // Q10: Find missing number
 let arr10 = [1, 2, 3, 5];
