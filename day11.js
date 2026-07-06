@@ -73,8 +73,6 @@ for(let num of numbers4){
 }
 
 
-
-
 // ===============================
 // Q5: Count Total Items
 // ===============================
@@ -114,8 +112,6 @@ for(let nme of names6){
 }
 
 
-
-
 // ===============================
 // Q7: Print Product Names
 // ===============================
@@ -134,9 +130,6 @@ let products2 = [
 for(let item of products2){
     console.log(item.name)
 }
-
-
-
 
 
 
@@ -161,9 +154,6 @@ for(let item of products3){
 
 
 
-
-
-
 // ===============================
 // Q9: Print Products Above 1000
 // ===============================
@@ -181,9 +171,6 @@ let products = [
 for(let name of products){
    console.log(name.name)
 }
-
-
-
 
 
 

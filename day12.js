@@ -101,13 +101,11 @@ console.log(newArr)
 
 
 
-
-
 // --------------------------
 
 // Q5: Linear Search with Function
 //
-// let arr = [5, 10, 15, 20, 25];
+let arr5 = [5, 10, 15, 20, 25];
 //
 // Create function:
 //
@@ -121,3 +119,13 @@ console.log(newArr)
 //
 // If not found:
 // Not Found
+
+const searchNumber = (num) =>{
+  if(num){
+      console.log(arr5.indexOf(num))
+  }else{
+    console.log(" not found")
+  }
+}
+
+searchNumber(27)
