@@ -2,15 +2,30 @@
 let arr1 = [12, 45, 78, 23, 90, 56, 78];
 // Output: 56
 
-let largest = arr1[0];
+let largest = -Infinity;
 
-let secondLargest = arr1[0];
+let secondLargest = -Infinity;
 
-let thirdLargest = 0;
+let thirdLargest = -Infinity;
 
+for (let i = 0; i < arr1.length; i++) {
+  let num = arr1[i];
 
-console.log("largest =", largest);
-console.log("second largest = ",secondLargest)
+  if (num > largest) {
+    thirdLargest = secondLargest;
+    secondLargest = largest;
+    largest = num;
+  } else if (num > secondLargest && num !== largest) {
+    thirdLargest = secondLargest;
+    secondLargest = num;
+  } else if (num > thirdLargest && num !== secondLargest && num !== largest) {
+    thirdLargest = num;
+  }
+}
+
+console.log("Largest:", largest);
+console.log("Second Largest:", secondLargest);
+console.log("Third Largest:", thirdLargest);
 
 // Q2: Count how many times each number appears
 let arr2 = [10, 20, 10, 30, 20, 10, 40];
@@ -19,6 +34,21 @@ let arr2 = [10, 20, 10, 30, 20, 10, 40];
 // 20 -> 2
 // 30 -> 1
 // 40 -> 1
+
+count = {};
+
+for (let i = 0; i < arr2.length; i++) {
+  let num = arr2[i];
+
+  if (count[num]) {
+    count[num]++;
+  } else {
+    count[num] = 1;
+  }
+  for (let key in count) {
+    console.log(key + "->" + count[num]);
+  }
+}
 
 // Q3: Move all zeros to the end
 let arr3 = [0, 1, 0, 3, 12];
