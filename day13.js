@@ -69,6 +69,11 @@ for (let i = 0; i < arr3.length; i++) {
 }console.log(zeroCount)
 console.log(newArray);
 
+for(let i = 0;i<zeroCount;i++){
+  newArray.push(0)
+}console.log(newArray)
+
+
 // Q4: Find the first non-repeating number
 let arr4 = [2, 3, 4, 2, 3, 5, 4];
 // Output: 5
