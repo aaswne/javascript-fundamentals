@@ -134,6 +134,20 @@ let arr7a = [10, 20, 30, 40];
 let arr7b = [20, 40, 50, 60];
 // Output: [20, 40]
 
+for(let i = 0 ;i<arr7a.length;i++){
+
+
+  for(let j = 0 ;j<arr7b.length;j++){
+
+
+    if(arr7a[i]==arr7b[j]){
+      console.log(arr7a[i])
+    }
+  }
+
+
+}
+
 // Q8: Remove duplicates without Set()
 let arr8 = [10, 20, 10, 30, 20, 40];
 // Output: [10, 20, 30, 40]
