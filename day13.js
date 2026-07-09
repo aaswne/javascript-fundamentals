@@ -78,6 +78,27 @@ for(let i = 0;i<zeroCount;i++){
 let arr4 = [2, 3, 4, 2, 3, 5, 4];
 // Output: 5
 
+let count2 = {}
+
+for(let i = 0;i<arr4.length;i++){
+  let num2 = arr4[i]
+
+  if(count2[num2]){
+    count2[num2]++
+  }else{
+    count2[num2] = 1
+  }
+
+}console.log(count2)
+
+ for ( let key in count2){
+  if(count2[key]===1){
+    console.log("non repeting number is",key)
+  }
+ }
+
+
+
 // Q5: Check if array is sorted
 let arr5 = [10, 20, 30, 40];
 // Output: Sorted
