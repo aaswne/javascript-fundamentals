@@ -120,6 +120,14 @@ for(let i = 0 ; i <arr5.length-1;i++){
 // Q6: Reverse array without reverse()
 let arr6 = [10, 20, 30, 40];
 // Output: [40, 30, 20, 10]
+let newArr6 = []
+for (let i = arr6.length-1 ; i>=0;i--){
+
+
+newArr6.push(arr6[i])
+
+
+}console.log(newArr6)
 
 // Q7: Find common elements
 let arr7a = [10, 20, 30, 40];
