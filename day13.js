@@ -101,7 +101,21 @@ for(let i = 0;i<arr4.length;i++){
 
 // Q5: Check if array is sorted
 let arr5 = [10, 20, 30, 40];
+
+
 // Output: Sorted
+
+
+for(let i = 0 ; i <arr5.length-1;i++){
+  if( arr5[i]<arr5[i+1] ){
+    console.log("sorted")
+  }else{
+     console.log("not sorted")
+  }
+}
+
+
+
 
 // Q6: Reverse array without reverse()
 let arr6 = [10, 20, 30, 40];
