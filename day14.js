@@ -196,7 +196,21 @@ let arr9 = [1, 1, 0, 1, 1, 1, 0, 1];
 // Output:
 // 3
 
+let countOf1 = 0 
+let maxCount= 0 
 
+for(let i = 0 ;i <arr9.length;i++){
+if(arr9[i]==1){
+    countOf1=countOf1+1
+}else{
+    if(maxCount<countOf1){
+        maxCount=countOf1
+        
+    }
+
+    countOf1=0
+}
+}console.log(maxCount)
 
 
 // Q10: Merge Two Arrays Without Duplicates
