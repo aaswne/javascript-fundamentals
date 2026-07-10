@@ -40,6 +40,16 @@ let arr2 = [10, 21, 34, 55, 68, 77];
 // Even = 3
 // Odd = 3
 
+let odd = 0 
+let even = 0 
+
+for(let i = 0 ;i<arr2.length;i++){
+    if(arr2[i]%2==0){
+        even=even+1
+    }else{
+        odd = odd+1
+    }
+}console.log(odd,even)
 
 
 
