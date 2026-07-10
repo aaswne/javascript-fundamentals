@@ -171,10 +171,22 @@ let num8 = 1221;
 // Output:
 // Palindrome
 
-// Example:
-// let num8 = 1234;
-// Output:
-// Not Palindrome
+
+let str = num8.toString()
+let reversed = ""
+
+
+for(let i = str.length-1 ;i >=0;i--){
+  reversed=reversed+str[i]
+}console.log(reversed)
+
+if(reversed==str){
+    console.log("palindrome")
+}else{
+    console.log("not")
+}
+
+
 
 
 
