@@ -151,10 +151,38 @@ for(let i = 0 ;i<arr7a.length;i++){
 // Q8: Remove duplicates without Set()
 let arr8 = [10, 20, 10, 30, 20, 40];
 // Output: [10, 20, 30, 40]
+let result = [ ]
+
+for(let i = 0 ;i<arr8.length;i++){
+
+  let num5 = arr8[i]
+
+  if(result.indexOf(num5)){
+    result.push(num5)
+  }
+
+}console.log(result)
+
+
 
 // Q9: Rotate array left by one
 let arr9 = [10, 20, 30, 40, 50];
 // Output: [20, 30, 40, 50, 10]
+
+let firstArr = arr9[0]
+
+let newArr9 = []
+
+for(let i = arr9[1];i<arr9.length-1;i++){
+
+  
+
+
+}
+
+
+
+
 
 // Q10: Find missing number
 let arr10 = [1, 2, 3, 5];
