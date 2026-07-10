@@ -155,6 +155,14 @@ let target7 = 9;
 // Output:
 // 2 7
 
+for(let i = 0 ;i <arr7.length;i++){
+    if(arr7[i]+arr7[i+1]==9){
+        console.log(arr7[i],arr7[i+1])
+    }
+}
+
+
+
 
 
 
