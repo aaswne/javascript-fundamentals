@@ -173,12 +173,14 @@ let firstArr = arr9[0]
 
 let newArr9 = []
 
-for(let i = arr9[1];i<arr9.length-1;i++){
+for(let i = 1;i<arr9.length;i++){
 
-  
+newArr9.push(arr9[i])
 
 
-}
+
+}newArr9.push(firstArr)
+console.log(newArr9)
 
 
 
