@@ -78,12 +78,48 @@ let arr4b = [1, 2, 3];
 
 
 
+if(arr4a.length!==arr4b.length){
+console.log("not equal")
+}else{
+
+
+    for(let i = 0;i<arr4a.length;i++){
+
+        let num1 = arr4a[i]
+
+        for(let j = 0;j<arr4b.length;j++){
+
+            if(num1==arr4b[i]){
+                console.log("equal")
+            }else{
+                console.log("not equal")
+            }
+        }
+
+    }
+
+}
+
+
+
+
 
 // Q5: Find Common Elements
 let arr5a = [1, 2, 3, 4, 5];
 let arr5b = [3, 4, 5, 6, 7];
 // Output:
 // [3, 4, 5]
+
+for(let i = 0 ;i<arr5a.length;i++){
+    let num5 = arr5a[i]
+
+    for(let j = 0;j<arr5b.length;j++){
+
+        if(num5==arr5b[j]){
+            console.log(num5)
+        }
+    }
+}
 
 
 
