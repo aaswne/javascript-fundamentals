@@ -189,3 +189,18 @@ console.log(newArr9)
 // Q10: Find missing number
 let arr10 = [1, 2, 3, 5];
 // Output: 4
+
+for(let i = 1;i<arr10.length;i++){
+
+  let num10 = arr10[i]
+  let nextNUm = arr10[i+1]
+
+  if(num10+1==nextNUm){
+    
+    console.log("done")
+
+  }else{
+    console.log("not",num10+1)
+  }
+  
+}
