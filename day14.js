@@ -58,6 +58,15 @@ let words3 = ["apple", "banana", "kiwi", "watermelon"];
 // Output:
 // watermelon
 
+let largestCount  = words3[0]
+
+for(let i = 0 ;i<words3.length;i++){
+
+    if(words3[i].length>largestCount.length){
+        largestCount=words3[i]
+    }
+}console.log(largestCount)
+
 
 
 
