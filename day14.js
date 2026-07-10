@@ -130,6 +130,22 @@ let arr6b = [20, 30, 50];
 // Output:
 // 2
 
+let count6 = 0 
+
+
+for(let i = 0 ;i<arr6a.length;i++){
+    let num5 = arr6a[i]
+
+    for(let j = 0;j<arr6b.length;j++){
+
+        if(num5==arr6b[j]){
+            count6 = count6+1
+        }
+    }
+}console.log("count:",count6)
+
+
+
 
 
 
