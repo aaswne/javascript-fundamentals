@@ -14,13 +14,10 @@ let result = [ ]
 for(let i = 0 ;i<arr1.length;i++ ){
     let number = arr1[i]
 
-    if(number!==result){
-        result.push(number)
-    }else if(number==result){
-        result
-    }
+    
+ 
 
-}console.log(result)
+}
 
 
 
@@ -29,6 +26,22 @@ let arr2 = [1, 2, 3, 2, 4, 1, 5, 3];
 // Output:
 // [1, 2, 3]
 // Each repeating number should appear only once in the result
+let seen = []
+
+
+for(let i = 0 ; i <arr2.length;i++){
+
+    let numToFind = arr2[i]
+
+    if(seen.includes(numToFind)){
+        console.log(numToFind,"repeting")
+    }else{
+        seen.push(numToFind)
+    }
+
+   
+    
+}
 
 
 
