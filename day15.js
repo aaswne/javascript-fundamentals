@@ -54,11 +54,39 @@ let arr3 = [1, 1, 1, 2, 2, 3, 3, 3, 3];
 
 
 
+
+
 // Q4: Move All Negative Numbers to the Beginning
 let arr4 = [1, -2, 3, -4, 5, -6];
 // Output:
 // [-2, -4, -6, 1, 3, 5]
 // Order should remain the same
+
+let newArr4 = [ ]
+
+for(let i = 0 ;i<arr4.length;i++){
+
+    if(arr4[i]<0){
+        newArr4.push(arr4[i])
+    }
+
+
+}
+
+for(let i = 0 ;i<arr4.length;i++){
+
+   if(arr4[i]>=0){
+    newArr4.push(arr4[i])
+   }
+
+
+}
+
+console.log(newArr4)
+
+
+
+
 
 
 
@@ -67,6 +95,21 @@ let arr5 = [1, 2, 3, 4, 5, 6];
 // Output:
 // Even: [2, 4, 6]
 // Odd: [1, 3, 5]
+
+let odd = [ ]
+
+let even = [ ]
+
+for(let i = 0 ;i<arr5.length;i++){
+
+    if(arr5[i]%2==0){
+
+        even.push(arr5[i])
+    }else{
+
+        odd.push(arr5[i])
+    }
+}console.log(even,odd)
 
 
 
