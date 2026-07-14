@@ -81,9 +81,7 @@ const colors = ["Red", "Green", "Blue", "Yellow"];
 // Red
 // Blue
 
-let first = colors[0]
-
-let third = colors[2]
+const[first,,third] = colors
 
 console.log(first,third)
 
@@ -98,7 +96,9 @@ const numbers = [10, 20, 30, 40];
 // 10
 // 30
 
+const [ first, , third] = numbers
 
+console.log(first,third)
 
 
 
