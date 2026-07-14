@@ -81,6 +81,12 @@ const colors = ["Red", "Green", "Blue", "Yellow"];
 // Red
 // Blue
 
+let first = colors[0]
+
+let third = colors[2]
+
+console.log(first,third)
+
 
 
 
@@ -91,5 +97,8 @@ const numbers = [10, 20, 30, 40];
 // Expected Output:
 // 10
 // 30
+
+
+
 
 
