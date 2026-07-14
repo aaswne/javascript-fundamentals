@@ -51,6 +51,9 @@ const student = {
 // Expected Output:
 // Rahul
 
+const{name:fullname}= student
+
+console.log(fullname)
 
 
 // 3. Use a default value for age if it doesn't exist.
