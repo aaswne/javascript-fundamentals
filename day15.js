@@ -119,6 +119,19 @@ let arr6 = [1, 1, 2, 2, 2, 3, 3, 4];
 // Number: 2
 // Count: 3
 
+let result = [ ]
+let number  = 0 
+let count = 0 
+
+
+for(let i = 0 ;i<arr6.length;i++){
+
+    if(arr6[i]==result){
+
+
+
+    }
+}
 
 
 // Q7: Check Whether One Array is a Subset of Another
@@ -127,6 +140,8 @@ let arr7b = [2, 4, 5];
 // Output:
 // true
 // Every value in arr7b must exist in arr7a
+
+
 
 
 

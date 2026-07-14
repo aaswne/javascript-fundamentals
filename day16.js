@@ -1,61 +1,36 @@
-// ================================
-// Variables & Data Types - Level 1
-// ================================
-
-// Q1: Print Variables
-// Create the following variables:
-// name = "Aswin"
-// age = 22
-// isDeveloper = true
-//
-// Output:
-// Name: Aswin
-// Age: 22
-// Developer: true
-
-
-
-// Q2: Swap Two Numbers
-let a = 15;
-let b = 30;
-
-// Swap the values.
-//
-// Output:
-// a = 30
-// b = 15
+let arr = [
+  {
+    "id": 1,
+    "name": "Aswin",
+    "role": "Frontend Developer"
+  },
+  {
+    "id": 2,
+    "name": "John",
+    "role": "Backend Developer"
+  },
+  {
+    "id": 3,
+    "name": "Sara",
+    "role": "UI Designer"
+  }
+]
 
 
+for (let item of arr){
+    console.log(item)
+}
 
-// Q3: Check Data Types
-let value1 = 100;
-let value2 = "100";
-let value3 = false;
-let value4 = null;
-let value5 = undefined;
+ 
 
-// Print the data type of each variable.
-
-
-
-// Q4: Convert Number to String
-let price = 999;
-
-// Convert price into a string.
-//
-// Output:
-// "999"
-// Type:
-// string
+const users = [
+  { id: 1, name: "Aswin", age: 22 },
+  { id: 2, name: "John", age: 25 },
+  { id: 3, name: "Sara", age: 20 }
+];
 
 
+for(let items of users){
 
-// Q5: Convert String to Number
-let marks = "85";
-
-// Convert marks into a number.
-//
-// Output:
-// 85
-// Type:
-// number
+    console.log(items.age>18)
+}
