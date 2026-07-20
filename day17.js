@@ -6,6 +6,29 @@
 const str1 = "javascript";
 // Output: "j"
 
+let nonrepeting = ""
+
+
+
+for(let i = 0 ; i <str1.length ; i++){
+
+  let count =  0 
+
+  for(let j = 0 ;j<str1.length;j++){
+    if(str1[i]==str1[j]){
+      count++
+    }
+  }
+
+
+  if(count==1){
+  nonrepeting=str1[i]
+  break
+}
+
+}console.log(nonrepeting)
+
+
 
 // 2. Rotate an array to the right by k positions.
 const arr1 = [1, 2, 3, 4, 5];
